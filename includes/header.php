@@ -45,7 +45,17 @@
                             
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#">Equipo</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                        <?php
+                            if($orden==5){
+                                echo '<li class="nav-item"><a class="nav-link" href="registro.php" style="color:#FFC300;">Registro</a></li>';
+                            }
+                            else{
+                                echo '<li class="nav-item"><a class="nav-link" href="registro.php">Registro</a></li>';
+                            }
+                            ?>
+                            
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
