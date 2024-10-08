@@ -21,7 +21,15 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        Producto 1
+                        Mouse Gamer <br>
+                        <?php
+                        if ($_SESSION["mouse"]) {
+                            echo "EXISTE";
+                        }
+                        ?>
+                        <form action="mouse.php" method="get">
+                            <button type="submit" class="btn btn-primary">Agregar al carrito</button>
+                        </form>
                     </div>
                     <div class="col-md-6">
                         Producto 2
