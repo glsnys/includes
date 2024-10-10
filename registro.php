@@ -53,7 +53,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h3 class="card-title text-center">Iniciar Sesión</h3>
-                            <form action="login.php" method="POST">
+                            <form action="loggin.php" method="POST">
                                 <!-- Usuario -->
                                 <div class="form-group mb-3">
                                     <label for="loggin-email" class="form-label">Correo electrónico</label>

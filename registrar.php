@@ -14,6 +14,8 @@
     $BDName = "sistemaweb";
     $BDtable = "clientes";
 
+    
+
     $registro = registrarCliente($username,$clave,$nombres,$apellidos,$email);
 
     if($registro){
